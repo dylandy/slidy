@@ -1,0 +1,41 @@
+/*********************************
+  Author by Dylandy Chang
+  dylandy.chang at gmail dot com
+**********************************/
+
+section {
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 100%;
+  background:black;
+  color:white;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+}
+
+h1 {
+  text-align: left;
+  font-size: 80px;
+}
+
+.slide-inner {
+  width:80%;
+  height:80%;
+  position:absolute;
+  top:10%;
+  left: 10%;
+}
+
+/* slide theme */
+.title-slide h1{
+  text-align: center;
+  margin-top:10%;
+  font-size:100px;
+}
