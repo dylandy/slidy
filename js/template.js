@@ -1,9 +1,14 @@
 var left_slide = function(){
   $(document).on("keydown" , function(e){
+    var left = parseInt($('#slide-body').css("left"));
+    var window_width = $(window).width();
+    var slide_count = $('section').size();
     if(e.which == 13 || e.which == 32 || e.which == 39 || e.which == 40 || e.which ==34){
-      $('#slide-body').animate({"left" : '-=' + $(window).width() + "px"}, 300 );
+      e.preventDefault();
+      $('#slide-body').css("left" , left - window_width );
     }else if(e.which == 33 || e.which == 37 || e.which == 38){
-      $('#slide-body').animate({"left" : '+=' + $(window).width() + "px"} , 300 );
+      e.preventDefault();
+      $('#slide-body').css("left" , left + window_width);
     }
   });
 }
