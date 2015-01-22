@@ -36,11 +36,11 @@ h1 {
 }
 
 .slide-inner {
-  width:80%;
+  width:90%;
   height:80%;
   position:absolute;
   top:10%;
-  left: 10%;
+  left: 5%;
 }
 
 /* slide theme */
@@ -74,6 +74,10 @@ h1 {
   text-align: center;
   font-size: 100px;
   margin-top: 30vh;
+}
+
+.two-content h1{
+  text-align: center;
 }
 
 .part-header h2 {
