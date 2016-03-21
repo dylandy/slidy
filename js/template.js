@@ -47,7 +47,9 @@ var left_slide = function(){
   });
 }
 
-
+//var object_fly_in_animation = function(){
+//  $(".fly-in").
+//}
 
 jQuery(function($){
   place_section(function(){
